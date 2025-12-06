@@ -1,13 +1,10 @@
 [user]
     name = Martin Haluza
     email = martin.haluza@cantatahealth.com
-    signingkey = ~/.ssh/id_ed25519_sk_git_signing.pub
+    signingkey = ~/.ssh/signing_key.pub
 
 [gpg]
     format = ssh
-
-[gpg "ssh"]
-    program = ssh-keygen
 
 [commit]
     gpgsign = true
